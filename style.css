@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://www.icegif.com/wp-content/uploads/snow-icegif-29.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:rgb(0, 124, 128)
+}
+.wrapper{
+    width: 430px;
+    height: auto;
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px,solid,white;
+    border-bottom:solid,whitesmoke;
+    backdrop-filter: blur(25px);
+    box-shadow: 0,0,10px,rgba(0,0,0,2);
+    color: antiquewhite;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 38px;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    margin-left: 1px   ;
+    background: rgb(236, 10, 161);
+    border: none;
+    outline: none;
+    border: 2px,solid,rgba(100,100,150,2);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    color: antiquewhite;
+    padding: 20px,25px,20px,20px;
+    
+    
+}
+.input-box input::placeholder{
+    color: aliceblue;
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px
+
+}
+.remember-forget label input{
+    accent-color: white;
+    margin: 4px;
+}
+.remember-forget a{
+    color: white;
+    margin: 4px;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background: white;
+    color: orange;
+}
+
+.wrapper .Register-link{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 30px;
+    
+}
+.Register-link p a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 570;
+}
+.Register-link p a :hover{
+    text-decoration: underline;
+}
+.wrapper h4{
+    color: aliceblue;
+    text-align: center;
+}
+.wrapper .icons{
+    color: antiquewhite;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: darkorange
+}
